@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A960E118E4E3CB00BF77F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A960E018E4E3CB00BF77F7 /* Cocoa.framework */; };
+		22A960EB18E4E3CB00BF77F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A960E918E4E3CB00BF77F7 /* InfoPlist.strings */; };
+		22A960ED18E4E3CB00BF77F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A960EC18E4E3CB00BF77F7 /* main.m */; };
+		22A960F118E4E3CB00BF77F7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22A960EF18E4E3CB00BF77F7 /* Credits.rtf */; };
+		22A960F418E4E3CB00BF77F7 /* A2DPSinkExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A960F318E4E3CB00BF77F7 /* A2DPSinkExampleAppDelegate.m */; };
+		22A960F718E4E3CB00BF77F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A960F518E4E3CB00BF77F7 /* MainMenu.xib */; };
+		22A960F918E4E3CB00BF77F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A960F818E4E3CB00BF77F7 /* Images.xcassets */; };
+		22A9610018E4E3CC00BF77F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A960FF18E4E3CC00BF77F7 /* XCTest.framework */; };
+		22A9610118E4E3CC00BF77F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A960E018E4E3CB00BF77F7 /* Cocoa.framework */; };
+		22A9611818E4E3DC00BF77F7 /* A2DP-SNK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22A9611518E4E3DC00BF77F7 /* A2DP-SNK.plist */; };
+		22A9611918E4E3DC00BF77F7 /* A2DP-SNK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22A9611518E4E3DC00BF77F7 /* A2DP-SNK.plist */; };
+		22A9611A18E4E3DC00BF77F7 /* A2DPSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A9611718E4E3DC00BF77F7 /* A2DPSink.m */; };
+		22A9611B18E4E3DC00BF77F7 /* A2DPSink.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A9611718E4E3DC00BF77F7 /* A2DPSink.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A9610218E4E3CC00BF77F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A960D518E4E3CB00BF77F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A960DC18E4E3CB00BF77F7;
+			remoteInfo = "A2DPSink-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22A960DD18E4E3CB00BF77F7 /* A2DPSink-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A2DPSink-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A960E018E4E3CB00BF77F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		22A960E318E4E3CB00BF77F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		22A960E418E4E3CB00BF77F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22A960E518E4E3CB00BF77F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22A960E818E4E3CB00BF77F7 /* A2DPSink-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "A2DPSink-Example-Info.plist"; sourceTree = "<group>"; };
+		22A960EA18E4E3CB00BF77F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22A960EC18E4E3CB00BF77F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22A960EE18E4E3CB00BF77F7 /* A2DPSink-Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A2DPSink-Example-Prefix.pch"; sourceTree = "<group>"; };
+		22A960F018E4E3CB00BF77F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		22A960F218E4E3CB00BF77F7 /* A2DPSinkExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A2DPSinkExampleAppDelegate.h; sourceTree = "<group>"; };
+		22A960F318E4E3CB00BF77F7 /* A2DPSinkExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A2DPSinkExampleAppDelegate.m; sourceTree = "<group>"; };
+		22A960F618E4E3CB00BF77F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22A960F818E4E3CB00BF77F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22A960FE18E4E3CC00BF77F7 /* A2DPSink-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A2DPSink-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A960FF18E4E3CC00BF77F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22A9611518E4E3DC00BF77F7 /* A2DP-SNK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "A2DP-SNK.plist"; sourceTree = "<group>"; };
+		22A9611618E4E3DC00BF77F7 /* A2DPSink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2DPSink.h; sourceTree = "<group>"; };
+		22A9611718E4E3DC00BF77F7 /* A2DPSink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2DPSink.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A960DA18E4E3CB00BF77F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A960E118E4E3CB00BF77F7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A960FB18E4E3CC00BF77F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A9610118E4E3CC00BF77F7 /* Cocoa.framework in Frameworks */,
+				22A9610018E4E3CC00BF77F7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A960D418E4E3CB00BF77F7 = {
+			isa = PBXGroup;
+			children = (
+				22A9611418E4E3DC00BF77F7 /* A2DPSink */,
+				22A960E618E4E3CB00BF77F7 /* A2DPSink-Example */,
+				22A960DF18E4E3CB00BF77F7 /* Frameworks */,
+				22A960DE18E4E3CB00BF77F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22A960DE18E4E3CB00BF77F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A960DD18E4E3CB00BF77F7 /* A2DPSink-Example.app */,
+				22A960FE18E4E3CC00BF77F7 /* A2DPSink-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A960DF18E4E3CB00BF77F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A960E018E4E3CB00BF77F7 /* Cocoa.framework */,
+				22A960FF18E4E3CC00BF77F7 /* XCTest.framework */,
+				22A960E218E4E3CB00BF77F7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22A960E218E4E3CB00BF77F7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A960E318E4E3CB00BF77F7 /* AppKit.framework */,
+				22A960E418E4E3CB00BF77F7 /* CoreData.framework */,
+				22A960E518E4E3CB00BF77F7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		22A960E618E4E3CB00BF77F7 /* A2DPSink-Example */ = {
+			isa = PBXGroup;
+			children = (
+				22A960F218E4E3CB00BF77F7 /* A2DPSinkExampleAppDelegate.h */,
+				22A960F318E4E3CB00BF77F7 /* A2DPSinkExampleAppDelegate.m */,
+				22A960F518E4E3CB00BF77F7 /* MainMenu.xib */,
+				22A960F818E4E3CB00BF77F7 /* Images.xcassets */,
+				22A960E718E4E3CB00BF77F7 /* Supporting Files */,
+			);
+			path = "A2DPSink-Example";
+			sourceTree = "<group>";
+		};
+		22A960E718E4E3CB00BF77F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A960E818E4E3CB00BF77F7 /* A2DPSink-Example-Info.plist */,
+				22A960E918E4E3CB00BF77F7 /* InfoPlist.strings */,
+				22A960EC18E4E3CB00BF77F7 /* main.m */,
+				22A960EE18E4E3CB00BF77F7 /* A2DPSink-Example-Prefix.pch */,
+				22A960EF18E4E3CB00BF77F7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22A9611418E4E3DC00BF77F7 /* A2DPSink */ = {
+			isa = PBXGroup;
+			children = (
+				22A9611518E4E3DC00BF77F7 /* A2DP-SNK.plist */,
+				22A9611618E4E3DC00BF77F7 /* A2DPSink.h */,
+				22A9611718E4E3DC00BF77F7 /* A2DPSink.m */,
+			);
+			name = A2DPSink;
+			path = ../../A2DPSink;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A960DC18E4E3CB00BF77F7 /* A2DPSink-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A9610E18E4E3CC00BF77F7 /* Build configuration list for PBXNativeTarget "A2DPSink-Example" */;
+			buildPhases = (
+				22A960D918E4E3CB00BF77F7 /* Sources */,
+				22A960DA18E4E3CB00BF77F7 /* Frameworks */,
+				22A960DB18E4E3CB00BF77F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "A2DPSink-Example";
+			productName = "A2DPSink-Example";
+			productReference = 22A960DD18E4E3CB00BF77F7 /* A2DPSink-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22A960FD18E4E3CC00BF77F7 /* A2DPSink-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A9611118E4E3CC00BF77F7 /* Build configuration list for PBXNativeTarget "A2DPSink-ExampleTests" */;
+			buildPhases = (
+				22A960FA18E4E3CC00BF77F7 /* Sources */,
+				22A960FB18E4E3CC00BF77F7 /* Frameworks */,
+				22A960FC18E4E3CC00BF77F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A9610318E4E3CC00BF77F7 /* PBXTargetDependency */,
+			);
+			name = "A2DPSink-ExampleTests";
+			productName = "A2DPSink-ExampleTests";
+			productReference = 22A960FE18E4E3CC00BF77F7 /* A2DPSink-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A960D518E4E3CB00BF77F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = A2DPSinkExample;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rare Air Consulting";
+				TargetAttributes = {
+					22A960FD18E4E3CC00BF77F7 = {
+						TestTargetID = 22A960DC18E4E3CB00BF77F7;
+					};
+				};
+			};
+			buildConfigurationList = 22A960D818E4E3CB00BF77F7 /* Build configuration list for PBXProject "A2DPSink-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22A960D418E4E3CB00BF77F7;
+			productRefGroup = 22A960DE18E4E3CB00BF77F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A960DC18E4E3CB00BF77F7 /* A2DPSink-Example */,
+				22A960FD18E4E3CC00BF77F7 /* A2DPSink-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A960DB18E4E3CB00BF77F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A960EB18E4E3CB00BF77F7 /* InfoPlist.strings in Resources */,
+				22A960F918E4E3CB00BF77F7 /* Images.xcassets in Resources */,
+				22A9611818E4E3DC00BF77F7 /* A2DP-SNK.plist in Resources */,
+				22A960F118E4E3CB00BF77F7 /* Credits.rtf in Resources */,
+				22A960F718E4E3CB00BF77F7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A960FC18E4E3CC00BF77F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A9611918E4E3DC00BF77F7 /* A2DP-SNK.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A960D918E4E3CB00BF77F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A960ED18E4E3CB00BF77F7 /* main.m in Sources */,
+				22A960F418E4E3CB00BF77F7 /* A2DPSinkExampleAppDelegate.m in Sources */,
+				22A9611A18E4E3DC00BF77F7 /* A2DPSink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A960FA18E4E3CC00BF77F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A9611B18E4E3DC00BF77F7 /* A2DPSink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22A9610318E4E3CC00BF77F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A960DC18E4E3CB00BF77F7 /* A2DPSink-Example */;
+			targetProxy = 22A9610218E4E3CC00BF77F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22A960E918E4E3CB00BF77F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A960EA18E4E3CB00BF77F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22A960EF18E4E3CB00BF77F7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A960F018E4E3CB00BF77F7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		22A960F518E4E3CB00BF77F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A960F618E4E3CB00BF77F7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A9610C18E4E3CC00BF77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22A9610D18E4E3CC00BF77F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22A9610F18E4E3CC00BF77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A2DPSink-Example/A2DPSink-Example-Prefix.pch";
+				INFOPLIST_FILE = "A2DPSink-Example/A2DPSink-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22A9611018E4E3CC00BF77F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A2DPSink-Example/A2DPSink-Example-Prefix.pch";
+				INFOPLIST_FILE = "A2DPSink-Example/A2DPSink-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22A9611218E4E3CC00BF77F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/A2DPSink-Example.app/Contents/MacOS/A2DPSink-Example";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A2DPSink-Example/A2DPSink-Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "A2DPSink-ExampleTests/A2DPSink-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22A9611318E4E3CC00BF77F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/A2DPSink-Example.app/Contents/MacOS/A2DPSink-Example";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A2DPSink-Example/A2DPSink-Example-Prefix.pch";
+				INFOPLIST_FILE = "A2DPSink-ExampleTests/A2DPSink-ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A960D818E4E3CB00BF77F7 /* Build configuration list for PBXProject "A2DPSink-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A9610C18E4E3CC00BF77F7 /* Debug */,
+				22A9610D18E4E3CC00BF77F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A9610E18E4E3CC00BF77F7 /* Build configuration list for PBXNativeTarget "A2DPSink-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A9610F18E4E3CC00BF77F7 /* Debug */,
+				22A9611018E4E3CC00BF77F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22A9611118E4E3CC00BF77F7 /* Build configuration list for PBXNativeTarget "A2DPSink-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A9611218E4E3CC00BF77F7 /* Debug */,
+				22A9611318E4E3CC00BF77F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A960D518E4E3CB00BF77F7 /* Project object */;
+}

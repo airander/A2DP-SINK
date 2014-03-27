@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0001</key>
+	<array>
+		<data>EQs=</data>
+	</array>
+	<key>0004</key>
+	<array>
+		<array>
+			<data>AQA=</data>
+			<dict>
+				<key>DataElementSize</key>
+				<integer>2</integer>
+				<key>DataElementType</key>
+				<integer>1</integer>
+				<key>DataElementValue</key>
+				<integer>25</integer>
+			</dict>
+		</array>
+		<array>
+			<data>ABk=</data>
+			<dict>
+				<key>DataElementSize</key>
+				<integer>2</integer>
+				<key>DataElementType</key>
+				<integer>1</integer>
+				<key>DataElementValue</key>
+				<integer>258</integer>
+			</dict>
+		</array>
+	</array>
+	<key>0005</key>
+	<array>
+		<data>EAI=</data>
+	</array>
+	<key>0009</key>
+	<array>
+		<array>
+			<data>EQ0=</data>
+			<dict>
+				<key>DataElementSize</key>
+				<integer>2</integer>
+				<key>DataElementType</key>
+				<integer>1</integer>
+				<key>DataElementValue</key>
+				<integer>258</integer>
+			</dict>
+		</array>
+	</array>
+</dict>
+</plist>

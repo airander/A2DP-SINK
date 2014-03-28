@@ -30,8 +30,5 @@
 #import "A2DPSink.h"
 
 @interface A2DPSinkExampleAppDelegate : NSObject <NSApplicationDelegate, A2DPSinkDelegate>
-
 @property (assign) IBOutlet NSWindow *window;
-- (IBAction)unload:(id)sender;
-
 @end

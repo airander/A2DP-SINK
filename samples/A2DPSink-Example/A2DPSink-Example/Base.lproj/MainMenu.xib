@@ -668,33 +668,32 @@
         </menu>
         <window title="A2DPSink-Example" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="618" height="232"/>
+            <rect key="contentRect" x="551" y="376" width="756" height="257"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="618" height="232"/>
+                <rect key="frame" x="0.0" y="0.0" width="756" height="257"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LaE-ly-DMH">
-                        <rect key="frame" x="18" y="195" width="271" height="17"/>
+                        <rect key="frame" x="18" y="220" width="478" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="For testing your iPhone follow these steps:" id="Ppw-eg-WF3">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="For testing your iPhone follow these steps: (Steps 1-4 are a one time setup)" id="Ppw-eg-WF3">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gbn-eW-D6K">
-                        <rect key="frame" x="18" y="170" width="392" height="17"/>
+                        <rect key="frame" x="18" y="195" width="470" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="1. Open the Bluetooth screen on OS X via System Preferences." id="kq4-wK-3tl">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="1. Open the Bluetooth screen on OS X via System Preferences->Bluetooth." id="kq4-wK-3tl">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6RS-yb-HzD">
-                        <rect key="frame" x="18" y="145" width="442" height="17"/>
+                        <rect key="frame" x="18" y="170" width="442" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="2. Open the Bluetooth screen on your device via Settings->Bluetooth." id="9uC-eb-j8V">
                             <font key="font" metaFont="system"/>
@@ -703,16 +702,16 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OG9-NP-Hda">
-                        <rect key="frame" x="18" y="120" width="339" height="17"/>
+                        <rect key="frame" x="18" y="145" width="466" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="3. Click 'Pair' from your computer (must go this way)." id="dfa-n0-qx6">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="3. Click 'Pair' from your computer next to your iPhone (must go this way)." id="dfa-n0-qx6">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jxE-wU-9mX">
-                        <rect key="frame" x="18" y="95" width="433" height="17"/>
+                        <rect key="frame" x="18" y="120" width="433" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="4. Accept the pairing on your iPhone. (Your devices are now paired)." id="XXO-qj-IOt">
                             <font key="font" metaFont="system"/>
@@ -721,7 +720,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4eN-Zx-03X">
-                        <rect key="frame" x="18" y="70" width="582" height="17"/>
+                        <rect key="frame" x="18" y="95" width="582" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="5. Now you should see your OS X machine on your iPhone's bluetooth list.  Click to connect." id="LST-1X-sFC">
                             <font key="font" metaFont="system"/>
@@ -729,19 +728,28 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7yA-39-rsr">
-                        <rect key="frame" x="18" y="45" width="458" height="17"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7yA-39-rsr">
+                        <rect key="frame" x="18" y="70" width="473" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="6. If showing 'Connected' you are now sending audio to this application." id="48G-Yb-mYV">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="6. If showing 'Connected' you are now sending audio to the OS X machine." id="48G-Yb-mYV">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jKY-Tg-f7D">
-                        <rect key="frame" x="18" y="20" width="524" height="17"/>
+                        <rect key="frame" x="18" y="45" width="524" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="7. Play some audio like from the Music app and watch the console for information." id="EKk-fD-n6N">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZI8-wb-XR8">
+                        <rect key="frame" x="18" y="20" width="720" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="8. You can turn bluetooth on and off from your iPhone to disconnect the audio.  Repeat steps 4-7 to reconnect it." id="ouW-GM-4eG">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -753,17 +761,20 @@
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LaE-ly-DMH" secondAttribute="trailing" constant="20" symbolic="YES" id="8yg-uG-s7f"/>
                     <constraint firstItem="OG9-NP-Hda" firstAttribute="top" secondItem="6RS-yb-HzD" secondAttribute="bottom" constant="8" symbolic="YES" id="Czj-77-w9c"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jxE-wU-9mX" secondAttribute="trailing" constant="20" symbolic="YES" id="EO6-CO-RSN"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZI8-wb-XR8" secondAttribute="trailing" constant="20" symbolic="YES" id="FSw-2O-Xot"/>
                     <constraint firstItem="gbn-eW-D6K" firstAttribute="top" secondItem="LaE-ly-DMH" secondAttribute="bottom" constant="8" symbolic="YES" id="Fn3-LS-Vxy"/>
                     <constraint firstItem="6RS-yb-HzD" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="M8B-Kx-hgR"/>
                     <constraint firstItem="jKY-Tg-f7D" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="M9g-Ke-FBp"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jKY-Tg-f7D" secondAttribute="trailing" constant="20" symbolic="YES" id="Orq-M7-rSM"/>
                     <constraint firstItem="gbn-eW-D6K" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="Rm9-ma-303"/>
-                    <constraint firstAttribute="bottom" secondItem="jKY-Tg-f7D" secondAttribute="bottom" constant="20" symbolic="YES" id="S4W-1f-JwD"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jKY-Tg-f7D" secondAttribute="bottom" constant="20" symbolic="YES" id="S4W-1f-JwD"/>
                     <constraint firstItem="LaE-ly-DMH" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="Tg9-kr-lPp"/>
                     <constraint firstItem="6RS-yb-HzD" firstAttribute="top" secondItem="gbn-eW-D6K" secondAttribute="bottom" constant="8" symbolic="YES" id="Ue8-M7-u9C"/>
                     <constraint firstItem="7yA-39-rsr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="a34-eK-cRW"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OG9-NP-Hda" secondAttribute="trailing" constant="20" symbolic="YES" id="ace-pg-Fvm"/>
+                    <constraint firstItem="ZI8-wb-XR8" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="apZ-8p-a1f"/>
                     <constraint firstItem="LaE-ly-DMH" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="20" symbolic="YES" id="bLl-us-ea3"/>
+                    <constraint firstItem="ZI8-wb-XR8" firstAttribute="top" secondItem="jKY-Tg-f7D" secondAttribute="bottom" constant="8" symbolic="YES" id="bMx-5b-sgW"/>
                     <constraint firstItem="jxE-wU-9mX" firstAttribute="top" secondItem="OG9-NP-Hda" secondAttribute="bottom" constant="8" symbolic="YES" id="dxQ-ZK-fqH"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gbn-eW-D6K" secondAttribute="trailing" constant="20" symbolic="YES" id="hRs-ol-Vcs"/>
                     <constraint firstItem="4eN-Zx-03X" firstAttribute="top" secondItem="jxE-wU-9mX" secondAttribute="bottom" constant="8" symbolic="YES" id="hkR-kd-6DI"/>
@@ -771,9 +782,10 @@
                     <constraint firstItem="jKY-Tg-f7D" firstAttribute="top" secondItem="7yA-39-rsr" secondAttribute="bottom" constant="8" id="mzP-es-gge"/>
                     <constraint firstItem="jxE-wU-9mX" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="pIG-lg-Ho9"/>
                     <constraint firstItem="OG9-NP-Hda" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="poK-NC-8Sf"/>
-                    <constraint firstAttribute="trailing" secondItem="4eN-Zx-03X" secondAttribute="trailing" constant="20" symbolic="YES" id="pyY-2H-5be"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4eN-Zx-03X" secondAttribute="trailing" constant="20" symbolic="YES" id="pyY-2H-5be"/>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6RS-yb-HzD" secondAttribute="trailing" constant="20" symbolic="YES" id="s2I-te-wx6"/>
-                    <constraint firstAttribute="trailing" secondItem="7yA-39-rsr" secondAttribute="trailing" constant="20" symbolic="YES" id="wel-YR-8lB"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7yA-39-rsr" secondAttribute="trailing" constant="20" symbolic="YES" id="wel-YR-8lB"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZI8-wb-XR8" secondAttribute="bottom" constant="20" symbolic="YES" id="ycc-3v-8fu"/>
                     <constraint firstItem="7yA-39-rsr" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" symbolic="YES" id="zmr-ch-Ba5"/>
                 </constraints>
             </view>
